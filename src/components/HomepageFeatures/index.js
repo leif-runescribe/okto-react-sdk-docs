@@ -2,14 +2,17 @@ import clsx from 'clsx';
 import Heading from '@theme/Heading';
 import styles from './styles.module.css';
 
+
+
+
 const FeatureList = [
   {
     title: 'Easy to Use',
     Svg: require('@site/static/img/undraw_docusaurus_mountain.svg').default,
     description: (
       <>
-        Docusaurus was designed from the ground up to be easily installed and
-        used to get your website up and running quickly.
+        The Okto SDK Wallet is designed to be seamlessly integrated into your application, making it quick and straightforward to implement Web3 authentication and transactions.
+
       </>
     ),
   },
@@ -18,8 +21,7 @@ const FeatureList = [
     Svg: require('@site/static/img/undraw_docusaurus_tree.svg').default,
     description: (
       <>
-        Docusaurus lets you focus on your docs, and we&apos;ll do the chores. Go
-        ahead and move your docs into the <code>docs</code> directory.
+        With Okto SDK Wallet, you can concentrate on developing your application's core features. Simply integrate the Okto SDK, and let it handle authentication and transaction management.
       </>
     ),
   },
@@ -28,8 +30,7 @@ const FeatureList = [
     Svg: require('@site/static/img/undraw_docusaurus_react.svg').default,
     description: (
       <>
-        Extend or customize your website layout by reusing React. Docusaurus can
-        be extended while reusing the same header and footer.
+        Customize and extend your application's interface using React components provided by the Okto SDK. Easily integrate Okto’s wallet features into your React-based application, maintaining a consistent look and feel throughout.
       </>
     ),
   },
